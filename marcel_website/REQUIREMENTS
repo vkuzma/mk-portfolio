@@ -1,0 +1,4 @@
+Django==1.4
+South==0.7.5
+FeinCMS==1.6.2
+django-mptt==0.5.2
