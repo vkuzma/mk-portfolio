@@ -1,0 +1,281 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 160px;
+    width: 100%;
+    background: #282828;
+    position: absolute;
+}
+.title-wrapper {
+    width: 350px;
+    height: 120px;
+    margin: 20px 20px 0 40px;
+    padding-right: 20px;
+    position: relative;
+    float: left;
+}
+.thumbnails {
+    width:350px;
+    height:120px;
+    margin-top:20px;
+    margin-left:20px;
+    position:relative;
+    background:white;
+    float:left;
+}
+.thumbnails li {
+    width: 47px;
+    height: 47px;
+    padding:2px;
+    float: left;
+    list-style: none;
+    border:solid 5px #fff;
+}
+.thumbnails li:hover {
+    border: solid 5px #282828;
+}
+h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 80px;
+    position: absolute;
+    bottom: 40px;
+}   
+h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #646464;
+    font-size: 40px;
+    position: absolute;
+    bottom: 10px;
+}
+.wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.content {
+    width: 100%;
+    top: 160px;
+    bottom: 0;
+    position: absolute;
+    background:url("grey.png");
+
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    background: url("bg1.jpg") center no-repeat;
+    background-size: contain;
+    position:absolute;
+   }
+   
+ .image-about {
+    height: 100%;
+    width: 100%;
+    background: url("mee.png") right no-repeat;
+    background-size: cover;
+    position:absolute;
+   }  
+   
+
+footer {
+    height:40px;
+    width:100%;
+    background-color:#282828;
+    position:absolute;
+    bottom:0px;
+    z-index:302321;
+}
+
+nav.main {
+    width:130px;
+    height:120px;
+    margin-top:20px;
+    float:right;
+    position:relative;
+}
+nav.main li {
+    list-style: none;
+    position: relative;
+    line-height: 28px;
+    padding: 2px 0px 2px 0px;
+    overflow: hidden;
+
+}
+
+
+nav.main a {
+    font-family: lato, arial;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left:15px;
+    color: #fff;  
+}
+
+
+
+nav.main li:hover a {
+    color: #282828;
+}
+nav.main li:hover {
+    background-color: #fff;
+    padding:2px 0px 2px 0px;
+}
+
+
+.projects {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index:20;
+}
+
+.projects li {
+    height:4px;
+    width: 4px;
+    z-index: 200;
+    margin-top:30px;
+    margin-right:15px;
+    position:relative;
+    float:clear;
+    list-style: none;
+    border-radius: 100%;
+    border: solid 10px #FFFFFF;
+    box-shadow: #000 1px 1px 1px;
+
+
+}
+
+.projects li:hover {
+    height:18px;
+    width:18px;
+    border: solid 3px #FFFFFF;
+}
+
+.t1 {
+    background:url("1.png");
+
+}
+.t2 {
+    background:url("2.png");
+
+}
+.t3 {
+    background:url("3.png");
+
+}
+.t4 {
+    background:url("4.png");
+
+}
+.t5 {
+    background:url("5.png");
+
+}
+.t6 {
+    background:url("6.png");
+
+}
+.t7 {
+    background:url("7.png");
+
+}
+.t8 {
+    background:url("8.png");
+
+}
+.t9 {
+    background:url("9.png");
+
+}
+
+.icon {
+    width:15px;
+    height:15px;
+    position:absolute;
+    right:15px;
+    top:8px;
+    border-radius: 100%;
+    border:5px solid #FFFFFF;
+}
+
+.pic-title {
+    color:#fff;
+    text-align:center;
+    font-family:lato;
+    font-weight:300;
+    letter-spacing:4px;
+    margin-top:7px;
+    font-size:20px;
+}
+
+.cursor-left {
+    background:url("left.png");
+    width:19px;
+    height:22px;
+    position:absolute;
+    left:20px;
+    top:10px;
+}
+
+.cursor-right {
+    background:url("right.png");
+    width:19px;
+    height:22px;
+    position:absolute;
+    right:20px;
+    top:10px;
+}
+
+.cursor-left:hover {
+    background:url("left_over.png");
+}
+
+.cursor-right:hover {
+    background:url("right_over.png");
+}
+
+.iconabout {
+    width:25px;
+    height:25px;
+    background:url("iconabout.png");
+    background-size:cover;
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+
+.iconshowcase {
+    width:25px;
+    height:25px;
+    background:url("iconshowcase.png");
+    background-size:cover;
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+
+.iconhome {
+    width:25px;
+    height:25px;
+    background:url("iconhome.png");
+    background-size:cover;
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+

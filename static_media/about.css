@@ -1,0 +1,138 @@
+h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 80px;
+    position: absolute;
+    bottom: 40px;
+}   
+h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #646464;
+    font-size: 40px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.title-wrapper {
+    width: 350px;
+    height: 120px;
+    margin: 20px 20px 0 40px;
+    padding-right: 20px;
+    position: relative;
+    float: left;
+}
+
+header {
+    height: 160px;
+    width: 100%;
+    background: #282828;
+    position: absolute;
+    border-bottom: 30px solid #282828;
+}
+
+footer {
+    height:40px;
+    width:100%;
+    background-color:#282828;
+    position:absolute;
+    bottom:0px;
+    z-index:5;
+}
+
+.content {
+    width: 100%;
+    top: 160px;
+    bottom: 0;
+    position: absolute;
+    background:url("mee.png");
+    background-size: cover;
+}
+
+footer p {
+    color:#fff;
+    margin-left:40px;
+    font-family:lato;
+    font-weight:300;
+    letter-spacing:4px;
+    margin-top:11px;
+    font-size:16px;
+}
+
+.left-content {
+   min-width:200px;
+   width:800px;
+   height:100%;
+   background:#fff;
+   position:absolute;
+   z-index:1;
+}
+
+.about-box {
+    width:700px;
+    height:auto;
+    margin:20px 0px 0px 40px;
+    border-bottom: black 1px solid;
+    color:#282828;
+    font-family:lato, arial;
+    font-weight:400;
+}
+
+
+
+.about-box .title {
+    font-size:40px;
+}
+
+.about-box .stuff {
+    font-size:20px;
+}
+
+table { 
+    padding:0;
+    margin-bottom:30px;
+}
+
+td {
+    width:200px;
+    padding:2px 0px 2px 0px;
+}
+
+.skillbox {
+    width:15px;
+    height:15px;
+    background:#0092f9;
+    margin-left:2px;
+    position:relative;
+    float:left;
+}
+
+
+nav.main a {
+    font-family: lato, arial;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left:15px;
+    color: #fff;  
+}
+
+#resume {
+    background:#0092f9;
+    position:absolute;
+    width:200px;
+    z-index:40;
+    right:60px;
+    bottom:50px;
+    text-align:center;
+    padding:5px;
+    border: solid 1px #0170bf;
+    color:#fff;
+    font-family:lato;
+    font-weight:400;
+    font-size:16px;
+}
+
+#resume:hover {
+    border-color:#282828;
+}
