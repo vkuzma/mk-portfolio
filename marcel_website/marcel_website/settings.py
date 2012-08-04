@@ -7,7 +7,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('Vladimir Kuzma', 'kuzma@allink.ch'),
+     ('Vladimir Kuzma', 'vladimirkuzma.ch@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -167,5 +167,5 @@ SOUTH_MIGRATION_MODULES = {
 }
 
 FEINCMS_RICHTEXT_INIT_CONTEXT = {
-    'TINYMCE_JS_URL': os.path.joind(STATIC_ROOT, 'tiny_mce/tiny_mce.js')
+    'TINYMCE_JS_URL': os.path.join(STATIC_ROOT, 'tiny_mce/tiny_mce.js')
     }
